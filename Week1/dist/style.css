@@ -1,0 +1,63 @@
+body {
+  /*Background color for entire page*/
+  background-color: #F0F8FF;
+}
+
+.topdiv {
+  /*Styling the top "header" for my page*/
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #FFFFF0;
+  border-width: 2px;
+  padding-left: 5px;
+  font-family: arial;
+  text-align: center;
+}
+
+.subtitle {
+  /*Making subtitle font a little bigger*/
+  /*Also using em instead of px for font sizes for more consistent experience for both desktop and mobile devices*/
+  font-size: 1em;
+}
+
+.cleardiv {
+  /*A simple div*/
+  font-family: arial;
+  font-size: 1em;
+}
+
+.boxdiv {
+  /*A blue box with rounded corners div*/
+  background-color: #F0FFFF;
+  border: solid;
+  border-width: 1px;
+  border-color: #D4FFCC;
+  margin: 0px 2px 15px 2px;
+  padding: 0px 0px 0px 17px;
+  border-radius: 2px;
+  font-family: arial;
+  width: 40%;
+}
+
+.tabletitlediv {
+  font-family: arial;
+  text-align: left;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  /*puts table in the center of the page*/
+  /*margin: auto;*/
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
