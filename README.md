@@ -14,3 +14,5 @@ Each folder contains the materials and exercises for each week.
    **Part 2**: Write a JavaScript function named swapRedGreen with one parameter pixel (representing a single pixel). This function should swap the red and green values of the pixel. For example, if you have a pixel with red = 255, green = 100, blue = 150, after calling swapRedGreen on that pixel its new RGB values would be red = 100, green = 255, blue = 150.
    
    **Part 3**: Write code to change the Duke blue devil to be yellow.
+   
+   **Part 4**: Write a function named setBlack that has one parameter pixel (representing a single pixel) and returns pixel with its red, green, and blue components changed so that the pixel’s color is black.
