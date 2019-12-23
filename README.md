@@ -15,4 +15,4 @@ Each folder contains the materials and exercises for each week.
    
    **Part 3**: Write code to change the Duke blue devil to be yellow.
    
-   **Part 4**: Write a function named setBlack that has one parameter pixel (representing a single pixel) and returns pixel with its red, green, and blue components changed so that the pixel’s color is black.
+   **Part 4**: Write a function that adds a black border to an image and allows user to set the size of the border.
