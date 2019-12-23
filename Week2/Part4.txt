@@ -1,0 +1,26 @@
+var img = new SimpleImage("smalllion.jpg");
+print(img);
+
+function setBlack(pixel){
+    pixel.setRed(0);
+    pixel.setGreen(0);
+    pixel.setBlue(0);
+}
+
+function addBorder(img, size){
+    var width = img.getWidth();
+    var height = img.getHeight();
+    for (var pixel of img.values()){
+        var x = pixel.getX();
+        var y = pixel.getY();
+        if (x<=size || x>=width-size){
+            setBlack(pixel);
+        }
+        if (y<=size || y>=height-size){
+            setBlack(pixel);
+        }
+    }
+}
+
+addBorder(img, 10)
+print(img)
