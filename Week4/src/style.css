@@ -1,0 +1,17 @@
+h1{
+  color:dimgray;
+  font-family:sans-serif;
+}
+
+canvas, div{
+  width:45%;
+  margin:2px;
+  padding:10px;
+  border:2px solid lightgray;
+  float:left
+}
+
+input{
+  font-size:10pt;
+}
+
