@@ -16,3 +16,7 @@ Each folder contains the materials and exercises for each week.
    **Part 3**: Write code to change the Duke blue devil to be yellow.
    
    **Part 4**: Write a function that adds a black border to an image and allows user to set the size of the border.
+   
+ - Week 3 mainly focuses on adding interactivity into the webpage including pop-up window, confirm window, buttons with different functions, color picker and upload files.
+ 
+ - Week 4 contains several mini-projects including uploading files and adding different filters,
