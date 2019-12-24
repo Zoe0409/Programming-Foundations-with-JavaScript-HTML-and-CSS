@@ -1,0 +1,127 @@
+<html>
+  
+<head>
+  <title>Try It! Add interactivity to the webpage</title>
+</head>
+
+<! -- Add interactivity with buttons -- >
+<div>
+  <h3>Add interactivity with buttons</h3>
+</div>
+<div>
+  <p>The <b>first</b> button was written without calling a JS function. After clicking the button, there will be a pop-up window.</p>
+</div>
+<div>
+  <input type="button" value="Button1" onclick="alert('Clicked button without JS function')">
+</div>
+<div>
+  <p>The <b>second</b> button was written with calling a JS function. After clicking the button, there will be a pop-up window.</p>
+</div>
+<div>
+  <input type="button" value="Button2" onclick="dochange()">
+</div>
+<div>
+  <p>The <b>third</b> button was written with calling a JS function. After clicking the button, there will be a pop-up window that requires the user to confirm. The confirmation result will be displayed below the button.</p>
+</div>
+<div>
+  <input type="button" value="Button3" onclick="confirmchange()">
+  <p id="Button3"></p>
+</div>
+
+<div>
+  <h3>Changing pages interactively practice</h3>
+</div>
+
+<div id="div1" class="orangeback">
+  Click the button to change the background color to blue.
+</div>
+
+<p>
+  <button onclick="changeColor('div1')">Change Color</button>
+</p>
+
+<div>
+  <h3>Change Div Text Content with Buttons</h3>
+</div>
+
+<div id="d1" class="yellowback">
+  Bonjour
+</div>
+
+<div id="d2" class="pinkback">
+  Sayonara
+</div>
+<p> After clicking the button below, it will be translated into English. </p>
+</p>
+<p>
+  <button onclick="changeText()">Change Text</button>
+</p>
+
+<! -- Create Canvas Elements -- >
+<h3>Canvas practice</h3>
+
+<canvas id="canvas1" class="blackback"></canvas>
+
+<canvas id="canvas2" class="greenback"></canvas>
+
+<p>
+  Switch the color with this button:
+  <button onclick="changeCanvasColor()">Switch Color</button>
+</p>
+
+<p>
+  Set the color of the left canvas to red:
+  <button onclick="doRed()">Make Red</button>
+</p>
+
+<p>
+  Set the color of the left canvas to grey:
+  <button onclick="doGrey()">Make Grey</button>
+</p>
+
+<p>
+  Add shapes and "Hello" to the left canvas:
+  <button onclick="addHello()">Add Hello</button>
+</p>
+
+<p>
+  Clear shapes and "Hello" in the left canvas:
+  <button onclick="clearleftcanvas()">Clear</button>
+</p>
+
+<! -- Add interactivity with color picker -- >
+
+<h3>Color picker practice</h3>
+
+<canvas id="can" class="canvasorangeback">
+</canvas>
+
+<p>
+  <input type="button" value="Make Blue" onclick="doBlue()">
+  <input type="color" value="#FF0000" id="clr" onchange="doColor('can','clr')">
+</p>
+
+<! -- Add interactivity with color slider -- >
+
+<h3>Color slider practice</h3>
+
+<canvas id="slider" class="canvasorangeback">
+</canvas>
+
+<p>
+  <input type="color" value="#FF0000" id="clrsldr" onchange="doColor('slider','clrsldr')">
+  <input type="range" min="10" max="100" value="10" id="sldr" oninput="doSquare('slider','sldr')">
+</p>
+
+<! -- Add interactivity with uploading file -- >
+
+<h3>Create the prototype web page to upload and display image</h3>
+
+<canvas id="uploadimg" class="transparent">
+</canvas>
+
+<p>
+  <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+  <input type="file" multiple="false" accept="image/*" id="uploadimgbutton" onchange="upload('uploadimgbutton','uploadimg')">
+</p>
