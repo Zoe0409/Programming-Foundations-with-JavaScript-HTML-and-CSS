@@ -1,6 +1,6 @@
-# Programming-Foundations-with-JavaScript-HTML-and-CSS
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FZoe0409%2FProgramming-Foundations-with-JavaScript-HTML-and-CSS)
 
-*Currently working in processing.*
+# Programming-Foundations-with-JavaScript-HTML-and-CSS
 
 Thanks for the Programming Foundations with JavaScript, HTML and CSS course from Duke University on coursera( https://www.coursera.org/learn/duke-programming-web/home/welcome). This reporsitory is to record my study progress and the projects mentioned in this course.
 
@@ -19,4 +19,4 @@ Each folder contains the materials and exercises for each week.
    
  - Week 3 mainly focuses on adding interactivity into the webpage including pop-up window, confirm window, buttons with different functions, color picker and upload files.
  
- - Week 4 contains several mini-projects including uploading files and adding different filters,
+ - Week 4 contains several mini-projects including uploading files and adding different filters.
