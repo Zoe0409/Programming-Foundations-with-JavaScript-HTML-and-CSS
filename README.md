@@ -1,5 +1,3 @@
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FZoe0409%2FProgramming-Foundations-with-JavaScript-HTML-and-CSS)
-
 # Programming-Foundations-with-JavaScript-HTML-and-CSS
 
 Thanks for the Programming Foundations with JavaScript, HTML and CSS course from Duke University on coursera( https://www.coursera.org/learn/duke-programming-web/home/welcome). This reporsitory is to record my study progress and the projects mentioned in this course.
